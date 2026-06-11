@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Texas Poker — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #1a1a2e;
+    --card: #232347;
+    --gold: #F1C40F;
+    --text: #ffffff;
+    --muted: rgba(255,255,255,0.75);
+    --border: rgba(255,255,255,0.15);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 760px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 40px; }
+  .logo { font-size: 48px; margin-bottom: 12px; }
+  h1 {
+    font-size: 28px;
+    font-weight: 800;
+    background: linear-gradient(90deg, var(--gold), #E67E22);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+  }
+  .tagline { color: var(--muted); font-size: 14px; }
+  .meta { color: var(--muted); font-size: 13px; margin-top: 12px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 26px 28px;
+    margin-bottom: 20px;
+  }
+  h2 { font-size: 19px; font-weight: 700; color: var(--gold); margin-bottom: 12px; }
+  p { color: var(--muted); margin-bottom: 12px; font-size: 15px; }
+  p:last-child { margin-bottom: 0; }
+  a { color: var(--gold); text-decoration: none; font-weight: 600; }
+  a:hover { text-decoration: underline; }
+  ul { list-style: none; padding-left: 0; margin-bottom: 12px; }
+  ul li {
+    color: var(--muted);
+    margin-bottom: 8px;
+    padding-left: 22px;
+    position: relative;
+    font-size: 15px;
+  }
+  ul li::before { content: "♠"; position: absolute; left: 0; color: var(--gold); }
+  strong { color: var(--text); }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+  .back-link { display: inline-block; margin-top: 10px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="logo">♠ ♥ ♦ ♣</div>
+    <h1>Privacy Policy</h1>
+    <p class="tagline">Happy Texas Poker</p>
+    <p class="meta">Effective date: May 19, 2026</p>
+  </header>
+
+  <div class="card">
+    <h2>Overview</h2>
+    <p>Happy Texas Poker ("we", "us", "the app") is a multiplayer Texas Hold'em poker game for entertainment. We respect your privacy and aim to collect as little personal information as possible. This Privacy Policy explains what data we handle, how we use it, and your rights regarding that data.</p>
+    <p><strong>In short:</strong> we do not collect your real name, email, phone number, location, or any data that identifies you in the real world. The app does not show ads, does not track you across other apps, and does not sell any data.</p>
+  </div>
+
+  <div class="card">
+    <h2>Information We Collect</h2>
+    <p>When you use Happy Texas Poker, the following information is processed:</p>
+    <ul>
+      <li><strong>Display name</strong> — The name you type when entering the lobby (e.g. "Adam" or "Bob"). This is shown to other players in your room. You may enter any name; you are not required to use your real name.</li>
+      <li><strong>Anonymous user ID</strong> — When you create or join a room, the app receives a random, anonymous identifier from Firebase Authentication. This ID is not linked to your Apple ID, email, phone number, or any other personal account.</li>
+      <li><strong>Game state data</strong> — Room codes, in-game chip counts, hand history within an active room, betting actions, and player positions. This data is required to operate the game across multiple devices.</li>
+    </ul>
+    <p>We do <strong>not</strong> collect:</p>
+    <ul>
+      <li>Your real name, email address, phone number, or postal address</li>
+      <li>Your location data (GPS, IP-based, or otherwise)</li>
+      <li>Your contacts, photos, calendar, or any other on-device information</li>
+      <li>Payment information (the app does not offer in-app purchases)</li>
+      <li>Device advertising identifiers (IDFA)</li>
+      <li>Crash reports linked to your identity</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>How We Use Information</h2>
+    <p>The limited information we process is used solely to provide the multiplayer game experience:</p>
+    <ul>
+      <li>Display your chosen name to other players in your room</li>
+      <li>Synchronize the game state across all players in the room in real time</li>
+      <li>Maintain the in-room tracker showing chip counts, hands won, and re-buys</li>
+      <li>Identify you as the same player across reconnects within a single session</li>
+    </ul>
+    <p>We do not use your information for advertising, profiling, analytics dashboards, or any commercial purpose beyond running the game.</p>
+  </div>
+
+  <div class="card">
+    <h2>Third-Party Services</h2>
+    <p>Happy Texas Poker uses <strong>Firebase</strong>, a service provided by Google LLC, to host the multiplayer backend. Specifically:</p>
+    <ul>
+      <li><strong>Firebase Authentication (Anonymous)</strong> — generates the anonymous user ID described above. No account creation, no email or password is required from you.</li>
+      <li><strong>Firebase Realtime Database</strong> — stores the active room state (chips, cards, betting actions) so it can be synced between players.</li>
+    </ul>
+    <p>Firebase's own data handling is governed by Google's privacy practices. See <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy and Security</a> and the <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>.</p>
+    <p>We do not use any other third-party services (no analytics SDK, no advertising network, no crash-reporting service that links to your identity).</p>
+  </div>
+
+  <div class="card">
+    <h2>Data Storage and Retention</h2>
+    <p>Game-state data (room information, player names, chip counts) is stored on Firebase servers for as long as the room is active. When all players leave a room, that room's data is no longer accessed and is eventually cleared by routine server maintenance.</p>
+    <p>Your anonymous Firebase user ID may persist locally on your device so the same identifier is reused across sessions. You can clear this by uninstalling and reinstalling the app.</p>
+    <p>We do not maintain a separate user profile, history database, or analytics archive linked to you outside of the active game rooms.</p>
+  </div>
+
+  <div class="card">
+    <h2>Your Rights</h2>
+    <p>Because we do not collect personally identifying information, there is no traditional account to access, modify, or delete. You may, at any time:</p>
+    <ul>
+      <li>Leave any active room — your data is removed from active rotation (the in-game tracker preserves anonymous play history for other players in that room while it is alive)</li>
+      <li>Uninstall the app — this removes the anonymous Firebase ID stored on your device</li>
+      <li>Contact us at the email below for any privacy-related question or request</li>
+    </ul>
+    <p>If you are a resident of the European Economic Area, the United Kingdom, or California, you have additional rights under the GDPR or CCPA, including the right to request information about and deletion of data linked to your anonymous identifier. To exercise these rights, contact us using the information below.</p>
+  </div>
+
+  <div class="card">
+    <h2>Children's Privacy</h2>
+    <p>Happy Texas Poker is rated <strong>17+</strong> due to the simulated gambling content of poker. It is not directed at children under 13. We do not knowingly collect information from children under 13. If you believe a child under 13 has used the app, please contact us and we will take appropriate steps.</p>
+  </div>
+
+  <div class="card">
+    <h2>International Users</h2>
+    <p>Firebase servers may be located in the United States or other countries where Google operates. By using the app, you understand that your game-state data may be processed in those countries, subject to Firebase's terms and Google's privacy commitments.</p>
+  </div>
+
+  <div class="card">
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy as the app evolves. The "Effective date" at the top of this page will be updated when changes are made. Significant changes will be noted in the app's update notes on the App Store.</p>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p>For any privacy-related question or request, please email us at:</p>
+    <p><a href="mailto:adamsho96@hotmail.com?subject=Privacy%20Policy%20Inquiry">adamsho96@hotmail.com</a></p>
+    <a href="index.html" class="back-link">← Back to support page</a>
+  </div>
+
+  <footer>
+    © 2026 Happy Texas Poker. All rights reserved.
+  </footer>
+
+</div>
+</body>
+</html>
